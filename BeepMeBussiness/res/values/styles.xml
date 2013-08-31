@@ -1,0 +1,54 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="AppBaseTheme" parent="android:Theme.NoTitleBar">
+        
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+    </style>
+    
+    <style name="BeepMeActionBarStyle" parent="ActionBarStyleDefault">
+        <item name="actionBarTopHeight">48dp</item>
+        <item name="actionBarTopBackground">@drawable/ab_top_bg</item>
+        <item name="actionBarTopOverlayMode">false</item>
+        
+        <item name="actionBarContextualTopBackground">@drawable/cab_bg_top</item>
+        
+        <item name="actionBarBottomHeight">48dp</item>
+        <item name="actionBarBottomBackground">@drawable/ab_bottom_bg</item>
+        <item name="actionBarBottomOverlayMode">false</item>
+        <item name="actionBarBottomAdjustMode">true</item>
+        
+        <item name="actionBarContextualBottomBackground">@drawable/cab_bg_bottom</item>
+        
+        <item name="actionButtonWidth">48dp</item>
+        <item name="actionButtonBackground">@drawable/ab_actionbutton_bg</item>
+        
+        <item name="overflowButtonCorner">top_right</item>        
+        <item name="overflowDropdownBackground">@drawable/ab_dropdown_bg</item>
+        <item name="overflowDropdownWidth">200dp</item>
+        <item name="overflowDropdownDivider">@drawable/divider_vertical_blue</item>
+        <item name="overflowDropdownSelector">@drawable/ab_dropdown_selector</item>
+        
+        <item name="contextualOverflowButtonCorner">bottom_left</item>
+        
+        <item name="titleButtonSrc">@drawable/ab_bt_title_dark</item>
+        <item name="titleTextAppearance">@style/TitleTextAppearance</item>
+        <item name="titleSubTextAppearance">@style/TitleSubTextAppearance</item>
+        <item name="titleClickable">false</item>     
+        <item name="titleTextWidth">256dp</item>
+        
+    </style>
+    
+    <style name="TitleTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="TitleSubTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+</resources>

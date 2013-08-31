@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:item="http://schemas.android.com/apk/res-auto"   >
+        
+    <item 
+        item:id="@+id/ab_bt_logout"
+        item:icon="@drawable/ab_logout"
+        item:type="button"
+        item:category="ifRoom"
+        item:corner="top_right"
+        item:title="Log out"/>    
+        
+    <item 
+        item:id="@+id/ab_bt_refresh"
+        item:icon="@drawable/ab_refresh"
+        item:type="button"
+        item:category="always"
+        item:corner="top_right"
+        item:title="Refresh"/>
+
+</menu>

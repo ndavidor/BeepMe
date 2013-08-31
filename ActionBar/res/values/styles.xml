@@ -1,0 +1,106 @@
+<resources>
+
+    <style name="ActionBarStyleDefault">
+        <item name="actionBarTopHeight">48dp</item>
+        <item name="actionBarTopBackground">#FF000000</item>
+        <item name="actionBarTopOverlayMode">false</item>
+        <item name="actionBarTopAdjustMode">false</item>
+        <item name="actionBarContextualTopBackground">#FFFFFFFF</item>
+        
+        <item name="actionBarBottomHeight">48dp</item>
+        <item name="actionBarBottomBackground">#FF000000</item>
+        <item name="actionBarBottomOverlayMode">false</item>
+        <item name="actionBarBottomAdjustMode">false</item>
+        <item name="actionBarContextualBottomBackground">#FFFFFFFF</item>
+        
+        <item name="actionBarAnimDuration">@android:integer/config_mediumAnimTime</item>
+        
+        <item name="actionButtonWidth">48dp</item>
+        <item name="actionButtonBackground">#99FFFFFF</item>
+        
+        <item name="overflowButtonCorner">top_right</item>        
+        <item name="overflowButtonIcon">@drawable/ab_bt_overflow</item>
+        <item name="overflowDropdownBackground">#FF000000</item>
+        <item name="overflowDropdownWidth">wrap_content</item>
+        <item name="overflowDropdownHeight">wrap_content</item>
+        <item name="overflowDropdownItemHeight">48dp</item>
+        <item name="overflowDropdownDivider">0</item>
+        <item name="overflowDropdownSelector">0</item>
+        <item name="overflowDropdownTextAppearance">@style/OverflowDropdownTextAppearanceDefault</item>      
+        <item name="overflowDropdownAnimationTopRight">@style/OverflowDropdownAnimationTopRightDefault</item>     
+        <item name="overflowDropdownAnimationTopLeft">@style/OverflowDropdownAnimationTopLeftDefault</item>  
+        <item name="overflowDropdownAnimationBottomRight">@style/OverflowDropdownAnimationBottomRightDefault</item>  
+        <item name="overflowDropdownAnimationBottomLeft">@style/OverflowDropdownAnimationBottomLeftDefault</item>  
+        
+        <item name="contextualOverflowButtonCorner">top_right</item>
+        <item name="contextualOverflowButtonIcon">@drawable/ab_bt_overflow</item>
+        
+        <item name="contextualDoneButtonCorner">top_left</item>
+        <item name="contextualDoneButtonIcon">@drawable/ab_bt_done</item>
+        
+        <item name="titleTextWidth">128dp</item>
+        <item name="titleTextAppearance">@style/TitleTextAppearanceDefault</item> 
+        <item name="titleSubTextAppearance">@style/TitleSubTextAppearanceDefault</item>
+        <item name="titleCorner">top_left</item>
+        <item name="titleClickable">true</item>
+        <item name="titleButtonSrc">@drawable/ab_bt_title</item>
+        <item name="titleAnimDuration">@android:integer/config_shortAnimTime</item>
+        <item name="titleButtonHidingPercent">0.5</item>
+        
+        <item name="spinnerBackground">#99FFFFFF</item>
+        <item name="spinnerDropdownBackground">#FF000000</item>
+        <item name="spinnerDropdownDivider">0</item>
+        <item name="spinnerDropdownSelector">0</item>
+        <item name="spinnerDropdownAnimationTop">@style/SpinnerDropdownAnimationTopDefault</item>     
+        <item name="spinnerDropdownAnimationBottom">@style/SpinnerDropdownAnimationBottomDefault</item>  
+    </style>
+    
+    <style name="TitleTextAppearanceDefault" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="TitleSubTextAppearanceDefault" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="OverflowDropdownTextAppearanceDefault" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <style name="OverflowDropdownAnimationTopRightDefault">
+    	<item name="@android:windowEnterAnimation">@anim/slide_in_top_right</item>
+    	<item name="@android:windowExitAnimation">@anim/slide_out_top_right</item>
+	</style>
+	
+	<style name="OverflowDropdownAnimationTopLeftDefault">
+    	<item name="@android:windowEnterAnimation">@anim/slide_in_top_left</item>
+    	<item name="@android:windowExitAnimation">@anim/slide_out_top_left</item>
+	</style>
+	
+	<style name="OverflowDropdownAnimationBottomRightDefault">
+    	<item name="@android:windowEnterAnimation">@anim/slide_in_bottom_right</item>
+    	<item name="@android:windowExitAnimation">@anim/slide_out_bottom_right</item>
+	</style>
+	
+	<style name="OverflowDropdownAnimationBottomLeftDefault">
+    	<item name="@android:windowEnterAnimation">@anim/slide_in_bottom_left</item>
+    	<item name="@android:windowExitAnimation">@anim/slide_out_bottom_left</item>
+	</style>
+	
+	<style name="SpinnerDropdownAnimationTopDefault">
+    	<item name="@android:windowEnterAnimation">@anim/slide_in_top</item>
+    	<item name="@android:windowExitAnimation">@anim/slide_out_top</item>
+	</style>
+	
+	<style name="SpinnerDropdownAnimationBottomDefault">
+    	<item name="@android:windowEnterAnimation">@anim/slide_in_bottom</item>
+    	<item name="@android:windowExitAnimation">@anim/slide_out_bottom</item>
+	</style>
+
+</resources>

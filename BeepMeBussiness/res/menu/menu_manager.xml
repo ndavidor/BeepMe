@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:item="http://schemas.android.com/apk/res-auto"   >
+        
+    <item 
+        item:id="@+id/ab_bt_logout"
+        item:icon="@drawable/ab_logout"
+        item:type="button"
+        item:category="ifRoom"
+        item:corner="top_right"
+        item:title="Log out"/>
+    
+    <item 
+        item:id="@+id/ab_bt_add"
+        item:icon="@drawable/ab_add"
+        item:type="button"
+        item:category="always"
+        item:corner="top_right"
+        item:title="Add Queue"/>
+    
+    <item 
+        item:id="@+id/ab_bt_employee"
+        item:icon="@drawable/ab_employee"
+        item:type="button"
+        item:category="always"
+        item:corner="top_right"
+        item:title="Employee"/>
+    
+    <item 
+        item:id="@+id/ab_bt_refresh"
+        item:icon="@drawable/ab_refresh"
+        item:type="button"
+        item:category="always"
+        item:corner="top_right"
+        item:title="Refresh"/>
+    
+    <item 
+        item:id="@+id/ab_bt_delete"
+        item:icon="@drawable/ab_delete"
+        item:type="button"
+        item:category="always"
+        item:corner="top_right"
+        item:title="Remove Queue"
+        item:contextual="true"/>
+    
+    <item 
+        item:id="@+id/ab_bt_reset"
+        item:icon="@drawable/ab_reset"
+        item:type="button"
+        item:category="always"
+        item:corner="top_right"
+        item:title="Reset Queue"
+        item:contextual="true"/>
+    
+    <item 
+        item:id="@+id/ab_bt_select_all"
+        item:icon="@drawable/ab_select_all"
+        item:type="button"
+        item:category="always"
+        item:corner="top_right"
+        item:title="Select all"
+        item:contextual="true"/>
+
+</menu>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <ImageView 
+        android:id="@+id/ticket_iv_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/beepmelogo"
+        android:scaleType="center"
+        android:layout_alignParentBottom="true"/>
+    
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:paddingTop="16dp"
+	    android:orientation="vertical" 
+	    android:gravity="center_horizontal"
+	    android:layout_above="@id/ticket_iv_logo">
+	    
+        <TextView 
+	        android:id="@+id/ticket_tv_queue"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/text_queue"
+	        android:paddingBottom="16dp"
+	        android:textStyle="bold"
+	        android:textSize="18sp"
+	        android:text="Queue 1"/>
+        
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/text_queue"
+	        android:textSize="18sp"
+	        android:text="Thank you!"/>
+	    
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/text_queue"
+	        android:textSize="18sp"
+	        android:text="Your number in queue is:"/>
+	    
+	    <TextView 
+	        android:id="@+id/ticket_tv_number"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#FF1818FF"
+	        android:paddingBottom="16dp"
+	        android:textStyle="bold"
+	        android:textSize="30sp"
+	        android:text="504"/>	    
+	    
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/text_queue"
+	        android:textSize="18sp"
+	        android:text="Your UserID is:"/>
+	    
+	    <TextView 
+	        android:id="@+id/ticket_tv_uid"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:paddingBottom="16dp"
+	        android:textColor="#FFBFBFBF"
+	        android:textStyle="bold"
+	        android:textSize="30sp"
+	        android:text="12312312"/>    
+	
+	</LinearLayout>
+    
+</RelativeLayout>
+

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <LinearLayout 
+	    android:id="@+id/employee_ll_loading"
+	    android:layout_width="match_parent"
+	    android:layout_height="72dp"
+	    android:orientation="horizontal"
+	    android:background="@color/bg_queue_normal_odd"
+	    android:visibility="gone" >
+	    
+        <RelativeLayout 
+    		android:layout_width="72dp"
+        	android:layout_height="72dp">
+        
+        	<ProgressBar
+            	style="?android:attr/progressBarStyleSmall"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_centerInParent="true"
+            	android:indeterminate="true" />
+    		        
+    	</RelativeLayout>
+        
+         <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:textSize="18sp"
+	        android:textColor="@color/text_queue"
+	        android:text="Loading..."
+	        android:gravity="center_vertical"/>	
+	    
+    </LinearLayout>    
+    
+    <LinearLayout 
+	    android:id="@+id/employee_ll_empty"
+	    android:layout_width="match_parent"
+	    android:layout_height="72dp"
+	    android:orientation="horizontal"
+	    android:background="@color/bg_queue_normal_odd"
+	    android:visibility="gone" >
+	    
+        <ImageView 
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:src="@android:drawable/ic_dialog_alert"
+            android:scaleType="center"/>
+        
+         <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:textSize="18sp"
+	        android:textColor="@color/text_queue"
+	        android:text="Don't have any employee"
+	        android:gravity="center_vertical"/>	
+	    
+    </LinearLayout>    
+    
+    <LinearLayout 
+	    android:id="@+id/employee_ll_container"
+	    android:layout_width="match_parent"
+	    android:layout_height="72dp"
+	    android:orientation="horizontal"
+	    android:background="@color/bg_queue_normal_odd">
+	    
+	    <RelativeLayout 
+	        android:layout_width="48dp"
+	        android:layout_height="72dp">
+	        
+	        <CheckBox 
+	        	android:id="@+id/employee_cb_selected"
+	        	android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:checked="true"
+	        	android:layout_centerInParent="true"/>
+	        
+	    </RelativeLayout>
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:orientation="vertical"
+	        android:paddingTop="8dp"
+	        android:paddingLeft="8dp">
+	        	        
+	        <TextView 
+	        	android:id="@+id/employee_tv_name"
+	        	android:layout_width="match_parent"
+	        	android:layout_height="wrap_content"
+	        	android:singleLine="true"
+	        	android:ellipsize="end"
+	        	android:textSize="18sp"
+	        	android:textStyle="bold"
+	        	android:textColor="@color/text_queue"
+	        	android:gravity="left"
+	        	android:text="Username"/>
+	        
+	        <Button 
+	        	android:id="@+id/employee_bt_change"
+	        	android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:textColor="@color/text_queue"
+	        	android:text="Change password"
+	        	android:layout_gravity="center"/>
+	        
+	    </LinearLayout>
+	    
+	</LinearLayout>
+    
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_ab_bt">#330033FF</color>
+    <color name="bg_color">#FFFFFFFF</color>
+    <color name="bg_bt">#FF0099CC</color>
+    <color name="bg_queue_normal_odd">#FFDEDEFF</color>
+    <color name="bg_queue_normal_even">#FFEFEFFF</color>
+    <color name="bg_queue_selected">#FFCFE9F3</color>
+    <color name="text_queue">#FF000000</color>
+    <color name="divider_queue">#FFCDCDCD</color>
+</resources>

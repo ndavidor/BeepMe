@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="ActionBarStyle">
+        <attr name="actionBarTopHeight" format="dimension"/>
+        <attr name="actionBarTopBackground" format="integer|color"/>
+        <attr name="actionBarTopOverlayMode" format="boolean"/>
+        <attr name="actionBarTopAdjustMode" format="boolean"/>
+        <attr name="actionBarContextualTopBackground" format="integer|color"/>
+        
+        <attr name="actionBarBottomHeight" format="dimension"/>
+        <attr name="actionBarBottomBackground" format="integer|color"/>
+        <attr name="actionBarBottomOverlayMode" format="boolean"/>
+        <attr name="actionBarBottomAdjustMode" format="boolean"/>
+        <attr name="actionBarContextualBottomBackground" format="integer|color"/>
+        
+        <attr name="actionBarAnimDuration" format="integer"/>
+         
+        <attr name="actionButtonWidth" format="dimension"/>
+        <attr name="actionButtonBackground" format="integer|color"/>
+        
+        <attr name="overflowButtonCorner" format="integer" >
+            <enum name="top_left" value="0x00000001" />
+            <enum name="top_right" value="0x00000002" />
+            <enum name="bottom_left" value="0x00000004" />
+            <enum name="bottom_right" value="0x00000008" />     
+        </attr>         
+        <attr name="overflowButtonIcon" format="integer"/>
+        <attr name="overflowDropdownBackground" format="integer|color"/>
+        <attr name="overflowDropdownWidth" format="dimension|integer" >
+            <enum name="match_parent" value="-1" />
+            <enum name="wrap_content" value="-2" /> 
+        </attr>        
+        <attr name="overflowDropdownHeight" format="dimension|integer" >
+            <enum name="match_parent" value="-1" />
+            <enum name="wrap_content" value="-2" /> 
+        </attr>        
+        <attr name="overflowDropdownItemHeight" format="dimension" />
+        <attr name="overflowDropdownDivider" format="integer"/>
+        <attr name="overflowDropdownSelector" format="integer"/>
+        <attr name="overflowDropdownTextAppearance" format="integer"/>
+        <attr name="overflowDropdownAnimationTopRight" format="integer"/>
+        <attr name="overflowDropdownAnimationTopLeft" format="integer"/>
+        <attr name="overflowDropdownAnimationBottomRight" format="integer"/>
+        <attr name="overflowDropdownAnimationBottomLeft" format="integer"/>
+        
+        <attr name="contextualOverflowButtonCorner" format="integer" >
+            <enum name="top_left" value="0x00000001" />
+            <enum name="top_right" value="0x00000002" />
+            <enum name="bottom_left" value="0x00000004" />
+            <enum name="bottom_right" value="0x00000008" />     
+        </attr>       
+        <attr name="contextualOverflowButtonIcon" format="integer"/>
+        
+        <attr name="contextualDoneButtonCorner" format="integer" >
+            <enum name="top_left" value="0x00000001" />
+            <enum name="top_right" value="0x00000002" />
+            <enum name="bottom_left" value="0x00000004" />
+            <enum name="bottom_right" value="0x00000008" />     
+        </attr>       
+        <attr name="contextualDoneButtonIcon" format="integer"/>
+        
+        <attr name="titleTextWidth" format="dimension"/>
+        <attr name="titleTextAppearance" format="integer"/>
+        <attr name="titleSubTextAppearance" format="integer"/>
+        <attr name="titleCorner" format="integer" >
+            <enum name="top_left" value="0x00000001" />
+            <enum name="top_right" value="0x00000002" />
+            <enum name="bottom_left" value="0x00000004" />
+            <enum name="bottom_right" value="0x00000008" />     
+        </attr>  
+        <attr name="titleClickable" format="boolean"/>
+        <attr name="titleButtonSrc" format="integer"/>
+        <attr name="titleAnimDuration" format="integer"/>
+        <attr name="titleButtonHidingPercent" format="float"/>
+        
+        <attr name="spinnerBackground" format="integer|color"/>
+        <attr name="spinnerDropdownBackground" format="integer|color"/>
+        <attr name="spinnerDropdownDivider" format="integer"/>
+        <attr name="spinnerDropdownSelector" format="integer"/>
+        <attr name="spinnerDropdownAnimationTop" format="integer"/>
+        <attr name="spinnerDropdownAnimationBottom" format="integer"/>
+    </declare-styleable>    
+    
+    
+    <declare-styleable name="ActionBarItem">
+        <attr name="id" format="reference" />
+        <attr name="icon" format="reference" />
+        <attr name="type" format="integer" >
+            <enum name="button" value="0x00000001" />
+            <enum name="custom_button" value="0x00000002" /> 
+            <enum name="collapse" value="0x00000003" /> 
+            <enum name="spinner" value="0x00000004" />
+            <enum name="search" value="0x00000005" />    
+        </attr>
+        <attr name="resLayout" format="reference" />
+        <attr name="resClass" format="string" />
+        <attr name="corner" format="integer" >
+            <enum name="top_left" value="0x00000001" />
+            <enum name="top_right" value="0x00000002" />
+            <enum name="bottom_left" value="0x00000004" />
+            <enum name="bottom_right" value="0x00000008" />     
+        </attr>
+        <attr name="category" format="integer" >
+            <enum name="always" value="0x00000001" />
+            <enum name="ifRoom" value="0x00000002" />
+            <enum name="never" value="0x00000004" />  
+        </attr>
+        <attr name="title" format="string|reference" />
+        <attr name="visible" format="boolean" />
+        <attr name="contextual" format="boolean" />
+        <attr name="collapse" format="boolean" />
+        <attr name="overlap" format="boolean" />
+        <attr name="onTop" format="boolean" />
+        <attr name="dropdownWidth" format="dimension|integer" >
+            <enum name="match_parent" value="-1" />
+            <enum name="wrap_content" value="-2" /> 
+        </attr>        
+        <attr name="dropdownHeight" format="dimension|integer" >
+            <enum name="match_parent" value="-1" />
+            <enum name="wrap_content" value="-2" /> 
+        </attr>  
+    </declare-styleable>   
+</resources>

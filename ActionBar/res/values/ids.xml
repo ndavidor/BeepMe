@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="ab_top"/>
+    <item type="id" name="ab_bottom"/>
+    <item type="id" name="ab_content"/>
+    <item type="id" name="ab_bt_overflow"/>
+    <item type="id" name="ab_bt_overflow_contextual"/>
+    <item type="id" name="ab_bt_done_contextual"/>
+    <item type="id" name="ab_bt_title"/>
+    
+</resources>
