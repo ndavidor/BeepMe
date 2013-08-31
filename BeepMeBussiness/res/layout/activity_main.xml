@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color">
+    
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/beepmelogo"
+        android:scaleType="center"
+        android:layout_alignParentBottom="true"/>
+    
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" 
+	    android:gravity="center"
+	    android:paddingLeft="32dp"
+	    android:paddingRight="32dp">
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textColor="#FF0099CC"
+	        android:textSize="20sp"
+	        android:text="Please select your role!"
+	        android:layout_marginTop="8dp"
+		    android:layout_marginBottom="8dp"
+	        android:gravity="center"/>
+	    
+		<Button 
+		    android:id="@+id/main_bt_manager"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="8dp"
+		    android:layout_marginBottom="8dp"
+		    android:text="Manager"/>
+		
+		<Button 
+		    android:id="@+id/main_bt_employee"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="8dp"
+		    android:layout_marginBottom="8dp"
+		    android:text="Employee"/>
+		
+		<Button 
+		    android:id="@+id/main_bt_entrance"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="8dp"
+		    android:layout_marginBottom="8dp"
+		    android:text="Entrance"/>
+	    
+	</LinearLayout>
+    
+</RelativeLayout>

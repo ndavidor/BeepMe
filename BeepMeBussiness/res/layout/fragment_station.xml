@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <ImageView 
+        android:id="@+id/station_iv_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/beepmelogo"
+        android:scaleType="center"
+        android:layout_alignParentBottom="true"/>
+    
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:paddingTop="16dp"
+	    android:paddingLeft="16dp"
+	    android:paddingRight="16dp"
+	    android:gravity="center_horizontal"
+	    android:layout_above="@id/station_iv_logo">
+	    
+	    <TextView 
+	        android:id="@+id/station_tv_waiting"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:padding="8dp"
+	        android:textSize="16sp"
+	        android:textColor="@color/text_queue"
+	        android:text="Waiting for client:"/>
+	    
+	    <RelativeLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:padding="8dp">
+	        
+	        <TextView 
+		        android:id="@+id/station_tv_number"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"	        
+		        android:textStyle="bold"
+		        android:textSize="30sp"
+		        android:textColor="#FF1818FF"
+		        android:text="_ _ _ _"
+		        android:layout_centerInParent="true"/>
+	        
+	        <TextView 
+		        android:id="@+id/station_tv_total"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:paddingLeft="8dp"
+		        android:paddingTop="18dp"
+		        android:textSize="14sp"
+		        android:textColor="@color/text_queue"
+		        android:text="out of _ _ _"
+		        android:layout_toRightOf="@id/station_tv_number"/>
+	        
+	    </RelativeLayout>    
+	    	    
+	    <LinearLayout
+	        android:id="@+id/station_ll_uid"
+	    	android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	   		android:orientation="vertical">
+	        
+		    <TextView 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="8dp"
+		        android:textSize="16sp"
+		        android:textColor="@color/text_queue"
+		        android:text="Client UID:"/>
+		    
+		    <TextView 
+			    android:id="@+id/station_tv_uid"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:padding="8dp"
+			    android:textStyle="bold"
+			    android:textSize="24sp"
+			    android:textColor="#FFBFBFBF"
+			    android:text="_ _ _ _"
+			    android:gravity="center"/>
+	    
+	    </LinearLayout>
+	    	    
+	    <Button 
+	        android:id="@+id/station_bt_next"
+	        android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="16dp"
+		    android:textSize="16sp"
+		    android:text="Next Client"/>
+	
+	</LinearLayout>
+</RelativeLayout>

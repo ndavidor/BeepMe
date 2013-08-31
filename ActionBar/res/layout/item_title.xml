@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    
+    <LinearLayout
+    	android:id="@+id/item_title_layout_button"
+    	android:layout_width="wrap_content"
+    	android:layout_height="match_parent"
+    	android:orientation="horizontal"
+    	android:clickable="true">
+    
+    	<ImageView 
+        	android:id="@+id/item_title_iv_button"
+        	android:layout_width="wrap_content"
+        	android:layout_height="match_parent"
+        	android:scaleType="fitCenter"
+        	android:src="@drawable/ab_bt_title"/>
+
+    	<ImageView
+        	android:id="@+id/item_title_iv_icon"
+        	android:layout_width="wrap_content"
+        	android:layout_height="match_parent"
+        	android:scaleType="fitCenter"
+        	android:src="@drawable/ic_launcher" />
+    	
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/item_title_layout_title"
+    	android:layout_width="wrap_content"
+    	android:layout_height="match_parent"
+    	android:gravity="center_vertical"
+    	android:orientation="vertical">
+    	
+        <TextView 
+        	android:id="@+id/item_title_tv_title"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:gravity="center_vertical"
+        	android:singleLine="true"
+        	android:ellipsize="marquee"
+        	android:text="Title here"
+        	android:maxWidth="100dp"/>
+    	
+        <TextView 
+        	android:id="@+id/item_title_tv_sub_title"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:gravity="center_vertical"
+        	android:singleLine="true"
+        	android:ellipsize="marquee"
+        	android:text="Sub title here"
+        	android:maxWidth="100dp"/>
+        
+    </LinearLayout>    
+    
+</LinearLayout>   
+ 

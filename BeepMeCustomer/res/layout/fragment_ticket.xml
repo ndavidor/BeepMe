@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <ImageView 
+        android:id="@+id/ticket_iv_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/beepmelogo"
+        android:scaleType="center"
+        android:layout_alignParentBottom="true"/>
+    
+    <LinearLayout
+        android:id="@+id/ticket_ll_waitting"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:paddingTop="16dp"
+	    android:orientation="vertical" 
+	    android:gravity="center_horizontal"
+	    android:layout_above="@id/ticket_iv_logo">
+	    
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/text_queue"
+	        android:textSize="18sp"
+	        android:text="Your number is:"/>
+	    
+	    <TextView 
+	        android:id="@+id/ticket_tv_number"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#FF1818FF"
+	        android:paddingBottom="16dp"
+	        android:textStyle="bold"
+	        android:textSize="30sp"
+	        android:text="504"/>
+	    
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/text_queue"
+	        android:textSize="18sp"
+	        android:text="Current number is:"/>
+	    
+	    <TextView 
+	        android:id="@+id/ticket_tv_cur"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:paddingBottom="16dp"
+	        android:textColor="#FF1818FF"
+	        android:textStyle="bold"
+	        android:textSize="30sp"
+	        android:text="406"/>
+	    
+	    <TextView 
+	        android:id="@+id/ticket_tv_info"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/text_queue"
+	        android:textSize="18sp"
+	        android:text="There are 7 people before you. You have about 17 minutes left."
+	        android:gravity="center"/>	    
+	
+	</LinearLayout>
+	
+    <LinearLayout
+        android:id="@+id/ticket_ll_up"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:paddingTop="16dp"
+	    android:orientation="vertical" 
+	    android:gravity="center_horizontal"
+	    android:layout_above="@id/ticket_iv_logo"
+	    android:visibility="gone">
+	    
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/text_queue"
+	        android:paddingBottom="16dp"
+	        android:textSize="18sp"
+	        android:text="Your turn is up!"/>
+	    
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/text_queue"
+	        android:textSize="18sp"
+	        android:text="Please go to station:"/>
+	    
+	    <TextView 
+	        android:id="@+id/ticket_tv_station"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:paddingBottom="16dp"
+	        android:textColor="#FF1818FF"
+	        android:textStyle="bold"
+	        android:textSize="30sp"
+	        android:text="4"/>
+	    
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/text_queue"
+	        android:textSize="18sp"
+	        android:text="Your UserID is:"/>
+	    
+	    <TextView 
+	        android:id="@+id/ticket_tv_uid"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:textColor="#FFBFBFBF"
+	        android:textStyle="bold"
+	        android:textSize="30sp"
+	        android:text="406"/>
+	
+	</LinearLayout>
+    
+</RelativeLayout>
+

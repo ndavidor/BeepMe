@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/bg_color">
+    
+	<il.ac.huji.actionbar.ActionBarLayout
+	    android:id="@+id/main_abl"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    style="@style/BeepMeActionBarStyle">
+	    
+	</il.ac.huji.actionbar.ActionBarLayout>    
+	
+</FrameLayout>
