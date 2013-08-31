@@ -70,11 +70,11 @@
   		
         <meta-data 
             android:name="il.ac.huji.beepme.parse.APPID"
-            android:value="PPM2OSPsEXQJsIGeQDpi2jVePCM01txAikwJOSXf"/>
+            android:value="zjIYzV0Ngp9TBOIbsDTWHAcRLrGLDg0BfE9vSDNB"/>
         
         <meta-data 
             android:name="il.ac.huji.beepme.parse.CLIENTKEY"
-            android:value="KuMcmPF6L9JAr4hYCckksdqyyiAO9qtJGnOPuOEe"/>
+            android:value="SwkoRTXIto8WBvK4HxoEGT9qiDdf4nrWSp4nkt5S"/>
   		
     </application>
 
