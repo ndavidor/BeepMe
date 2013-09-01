@@ -110,7 +110,7 @@ public class StationFragment extends Fragment implements Queue.OnQueueStatusChan
 			tv_waiting.setText("Last client:");
 			tv_number.setText(String.valueOf(queue.getCurrent()));
 			ll_uid.setVisibility(View.INVISIBLE);
-			if(queue.getCurrent() == queue.getTotal()){
+			if(queue.getCurrent() >= queue.getTotal()){
 				Toast.makeText(getActivity(), "There are no more customers, please select a different queue!", Toast.LENGTH_LONG).show();
 				getActivity().onBackPressed();
 			}
