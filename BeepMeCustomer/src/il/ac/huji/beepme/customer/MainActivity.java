@@ -132,7 +132,7 @@ public class MainActivity extends FragmentActivity implements ActionBarHolder, A
 	protected CaptureFragment getCaptureFragment(){
 		CaptureFragment fragment = (CaptureFragment)getSupportFragmentManager().findFragmentByTag(TAG_CAPTURE);
 		if(fragment == null)
-			fragment = CaptureFragment.newInstance(true, layout_content.getMeasuredWidth(), layout_content.getMeasuredHeight(), false, "Please place a QrCode below the red line!", -1);
+			fragment = CaptureFragment.newInstance(true, layout_content.getMeasuredWidth(), layout_content.getMeasuredHeight(), false, "Please place a BeepMe Barcode to scan", -1);
 		return fragment;
 	}
 	
