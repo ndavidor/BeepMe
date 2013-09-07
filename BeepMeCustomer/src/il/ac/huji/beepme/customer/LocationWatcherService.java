@@ -148,7 +148,7 @@ public class LocationWatcherService extends Service implements LocationListener{
 		final private Context mContext;
 		
 		private static final float DEFAULT_SPEED = 1.4f; //default human walking speed		
-		private static final float MIN_DISTANCE = 500f; 
+		private static final float MIN_DISTANCE = 50f; 
 		
 		private LocationCheckingTask(Context context, Handler handler, Location location){
 			mContext = context;
