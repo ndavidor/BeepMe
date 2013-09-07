@@ -779,7 +779,6 @@ public class CaptureFragment extends Fragment implements ICaptureProvider, Surfa
 
 	private void displayFrameworkBugMessageAndExit() {
 	    AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-	    builder.setTitle(getString(R.string.app_name));
 	    builder.setMessage(getString(R.string.msg_camera_framework_bug));
 	    builder.setPositiveButton(R.string.button_ok, new FinishListener(getActivity()));
 	    builder.setOnCancelListener(new FinishListener(getActivity()));
